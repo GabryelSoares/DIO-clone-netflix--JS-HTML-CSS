@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style/main.css'>
+
+  <!-- responsividade -->
+  <link rel='stylesheet' href='style/responsive.css'>
+
+  <!-- owl css -->
+  <link rel='stylesheet' href='style/owl/owl.carousel.min.css'>
+  <link rel='stylesheet' href='style/owl/owl.theme.default.min.css'>
+
+
+  <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+  <header>
+    <div class='container'>
+      <h2 class='logo'>NETFLIX</h2>
+      <nav>
+        <a href='#'>Início</a>
+        <a href='#'>Séries</a>
+        <a href='#'>Filmes</a>
+        <a href='#'>Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class='filme-principal'>
+      <video autoplay loop id="myVideo">
+        <source src="video/trailer-loki.mp4" type="video/mp4">
+      </video>
+      <div class='container'>
+        <h3 class='titulo'>Loki</h3>
+        <p class='descricao'>Começando imediatamente depois que Loki rouba o Tesseract (de novo), ele se encontra diante
+          da Autoridade de Variação Temporal, uma organização burocrática que existe fora do tempo e espaço. Forçado a
+          responder por seus crimes contra a linha do tempo, ele recebe uma escolha: Ser deletado da realidade ou ajudar
+          a capturar uma ameaça ainda maior.</p>
+        <div class='botoes'>
+          <button role='button' class='botao'>
+            <i class='fa fa-play'></i> ASSISTIR AGORA
+          </button>
+          <button role='button' class='botao'>
+            <i class='fa fa-info-circle'></i> MAIS INFORMAÇÕES
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class='carrosel-filmes'>
+    <div class='owl-carousel owl-theme'>
+      <div class='item'>
+        <img src='img/img1.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img2.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img3.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img4.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img5.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img6.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img7.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img8.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img9.jpg' class='box-filme' />
+      </div>
+      <div class='item'>
+        <img src='img/img10.jpg' class='box-filme' />
+      </div>
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script src='https://kit.fontawesome.com/ac0354129d.js' crossorigin='anonymous'></script>
+
+  <!-- owl css -->
+  <script src='js/owl/jquery.min.js'></script>
+  <script src='js/owl/owl.carousel.min.js'></script>
+  <script src='js/owl/setup.js'></script>
+
+</body>
+
+</html>
